@@ -1,0 +1,33 @@
+* {
+  font-family: 'Times New Roman', Times!important;
+  font-weight: 600 !important;
+}
+
+body {
+  transition: background-color 0.3s;
+}
+
+#mainHeading {
+  font-size: 20vw;
+  transition: font-size 0.3s;
+}
+
+#mainHeading:hover, #mainHeading:active {
+  font-size: 30vw!important;
+}
+
+#secondaryHeading {
+  font-size: 4vw;
+}
+
+#subHeading {
+  font-size: 3vw;
+}
+
+.gifBackground {
+  background-image: url("./background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 40%;
+}
