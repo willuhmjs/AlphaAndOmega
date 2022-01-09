@@ -1,4 +1,4 @@
-Wconst godlyEntrance = function () {
+const godlyEntrance = function () {
   $(this).removeClass("text-light");
   $(this).addClass("text-dark");
 
